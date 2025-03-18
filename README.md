@@ -51,3 +51,33 @@ a)
 En Github se modificaron los archivos print3 y print4
 b)
 Se agrego al README.md los instrucciones hasta el momento
+
+# Punto 7
+a)
+Con crea una rama nueva llamada "rama-1" con el comando:
+(git branch rama-1)
+b)
+Me muevo a la rama "rama-1" con el comando:
+(git checkout rama-1)
+y se crean 2 nuevos archivos.
+c)
+Se agregaron los nuevos archivos con el comando:
+(git add *.py)
+d)
+Se hacen commit a los nuevos archivos con el comando:
+(git commit -m "2 Nuevos archivos creado")
+Y se mandan al Github con el comando:
+(git push origin rama-1)
+e)
+Regresando a la rama main con el comando:
+(git checkout main)
+Se fusiona con el main lo de la rama-1 con el comando:
+(git merge rama-1)
+f)
+Se hizo con exito la fusion.
+g)
+El README.md tiene todas las instrucciones realizadas
+Se sube al repositorio local con el comando:
+(git commit -a -m "Se finalizada el README.md")
+Se subieron todos los cambios al repositorio de Github con el comando:
+(git push origin main)
